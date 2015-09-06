@@ -7,7 +7,7 @@ module.exports = {
   },
   module:{
     loaders: [
-      { test: /\.css$/, loader: "style?minimize!css" }
+      { test: /\.css$/, loader: "style!css!autoprefixer" }
     ]
   }
 };

@@ -1,3 +1,7 @@
 body {
 	background: gray;
 }
+
+div.class1{
+	display:flex;
+}
